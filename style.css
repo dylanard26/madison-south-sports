@@ -3,5 +3,9 @@ h1 {
 }
 
 .facebook{
-    background-color:transparent;
+    background-color:blue;
+}
+
+.nav-link{
+    color:chartreuse;
 }
