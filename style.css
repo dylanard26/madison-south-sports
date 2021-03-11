@@ -1,6 +1,10 @@
 h1 {
     color:rgb(231, 247, 247);
 }
+.carousel-item-active{
+    height: 400px;
+    width: 400px;
+}
 
 body {
     background-color:rgb(87, 67, 67);
@@ -14,7 +18,9 @@ p {
     color:rgb(231, 247, 247)
 }
 
-
+.Basics {
+    text-align: ;
+}
 
 
 
