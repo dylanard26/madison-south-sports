@@ -15,16 +15,13 @@ img{
     width: 700px;
 }
 p {
-    color:rgb(231, 247, 247)
+    color:rgb(231, 247, 247);
+    font-size: medium;
+    font-weight: bold;
 }
 
 .signup {
     text-align: center;
-}
-.baseballwords{
-    font-size: medium;
-    font-weight: bold;
-    
 }
 
 
