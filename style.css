@@ -2,8 +2,8 @@ h1 {
     color:rgb(231, 247, 247);
 }
 .carousel-item-active{
-    height: 400px;
-    width: 400px;
+    max-height: fit-content;
+    max-width: fit-content;
 }
 
 body {
@@ -19,7 +19,7 @@ p {
 }
 
 .Basics {
-    text-align: box-sizing: ;;
+    text-align: left 90%;
 }
 
 
