@@ -1,6 +1,9 @@
 h1 {
     color:rgb(231, 247, 247);
 }
+h3{
+    color: rgb(231, 247, 247);
+}
 .carousel-item-active{
     height: fit-content;
     width: fit-content;
@@ -11,13 +14,18 @@ body {
 }
 
 img{
-    height: 700px;
+    text-align: center;
+    height: 500px;
     width: 700px;
 }
 p {
     color:rgb(231, 247, 247);
-    font-size: medium;
+    font-size: x-large;
     font-weight: bold;
+    font-family: monospace;
+}
+.p1{
+    font-family: monospace;
 }
 
 
