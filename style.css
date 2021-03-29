@@ -1,11 +1,11 @@
 h1 {
-    color:rgb(231, 247, 247);
+    
 }
 h2 {
-    color:rgb(199, 247, 247);
+    
 }
 h3{
-    color: rgb(231, 247, 247);
+ 
 }
 .carousel-item-active{
     height: fit-content;
@@ -25,7 +25,6 @@ img{
     width: 700px;
 }
 p {
-    color:rgb(231, 247, 247);
     font-size: x-large;
     font-weight: bold;
     font-family: monospace;
@@ -48,16 +47,16 @@ p {
 }
 
 
-li {
+li 
     font-family: monospace;
     font-size:x-large;
     font-weight: bold;
-    color:rgb(231, 247, 247);
+   
 }
 
 .vid1 {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 100%;
     left: 50%;
 }
 .wall{
@@ -70,8 +69,8 @@ li {
     position: absolute;
     z-index: 2; 
     width: 50%;
-    left: 8%;
-    top: 320px;
+    left: 13%;
+    top: 410px;
     height: 7em;
     opacity: 0.9;
 }
@@ -89,23 +88,55 @@ li {
 .funfacts {
     position: absolute;
     z-index: 2; 
-    width: 25%;
-    left: 65%;
-    top: 550px;
+    width: 20%;
+    left: 71%;
+    top: 420px;
     height: 7em;
     opacity: 0.9;
 }
 
 .BoB {
     text-align: center;
+    font-size: 200%;
 }
 
 .HTPB {
     position: absolute;
     z-index: 2; 
-    width: 60%;
-    left: 3%;
+    width: 48%;
+    left: 13%;
     top: 70px;
     height: 7em;
     opacity: 0.9;
+}
+
+.t1 {
+    position: absolute;
+    z-index: 2; 
+    width: 75%;
+    left: 12%;
+    top: 125px;
+    height: 87%;
+    opacity: 0.9;
+    background-color: rgb(255, 255, 255);
+}
+
+.p2 {
+    font-size:medium;
+    color: black;
+    
+}
+
+.npl {
+    font-size: 150%;
+}
+
+.TITLE {
+    text-align: center;
+}
+
+.resp-container {
+    position: absolute;
+    top: 10%;
+    left: 63%;
 }
