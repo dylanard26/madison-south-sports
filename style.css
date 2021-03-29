@@ -38,7 +38,7 @@ p {
 }
 
 
-li {
+li 
     font-family: monospace;
     font-size:x-large;
     font-weight: bold;
@@ -120,10 +120,6 @@ li {
 
 .npl {
     font-size: 150%;
-}
-
-.TITLE {
-    text-align: center;
 }
 
 .resp-container {
