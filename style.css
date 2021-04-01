@@ -4,16 +4,16 @@
 }
 
 body {
-    
+
     background-image:url("img/emblem.png");
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    
+    position: relative;
 }
 
 .TITLE {
-    font-size: 185%;
+    font-size: 200%;
     text-align: center;
 }
 
@@ -39,7 +39,7 @@ p {
 }
 
 .BT {
-    font-size: 50%;
+    font-size: 120%;
 }
 
 .funf {
@@ -51,10 +51,7 @@ p {
     top: 100%;
     left: 50%;
 }
-
-  //changes were made 
-
-.wall {
+.wall{
     margin:20px;
     padding:10px;
 }
@@ -64,7 +61,7 @@ p {
     position: absolute;
     z-index: 2; 
     width: 50%;
-    left: 13%;
+    left: 8%;
     top: 47%;
     height: 7em;
     opacity: 0.9;
@@ -81,7 +78,7 @@ p {
 }
 
 .funfacts {
-    position:absolute;
+    position: absolute;
     z-index: 2; 
     width: 25%;
     left: 71%;
@@ -99,8 +96,8 @@ p {
     position: absolute;
     z-index: 2; 
     width: 48%;
-    left: 13%;
-    top: 70px;
+    left: 8%;
+    top: 30px;
     height: 7em;
     opacity: 0.9;
 }
@@ -108,11 +105,11 @@ p {
 .t1 {
     position: absolute;
     z-index: 2; 
-    width: 100%;
-    left: 7.5%;
-    top: 150%;
-    height: 70%;
-    opacity: 1;
+    width:80%;
+    left: 10%;
+    top: 170%;
+    height: 1000%;
+    opacity: 0.9;
     background-color: rgb(255, 255, 255);
     box-shadow: 10px 40px 40px 4px;
 }
@@ -140,19 +137,21 @@ p {
 }
 
 nav {
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(151, 2, 2);
+    
 }
 
-.logo h4{
+.logo {
     color: rgba(255, 255, 255, 0.781);
     text-transform: uppercase;
     letter-spacing: 7px;
-    font-size: 23px;
+    font-size: 19px;
 }
 
 .nav-links {
@@ -170,8 +169,7 @@ nav {
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 14px;
-    color:rgb(255, 255, 255)
+    font-size: 15px;
 }
 
 .burger {
@@ -187,7 +185,7 @@ nav {
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width:3000px) {
+@media screen and (max-width:0px) {
     .nav-links {
        width: 60%;
     }   
@@ -202,7 +200,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: rgb(39, 36, 36);
+        background-color: rgb(59, 50, 50);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -219,6 +217,8 @@ nav {
 }
 
 
+
+
 .nav-active {
     transform: translateX(0%);
 }
@@ -226,11 +226,11 @@ nav {
 @keyframes navLinkFade{
     from{
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateX(50%);
     }
     to{
         opacity: 1;
-        transform: translateX(0px);
+        transform: translateX(0);
     }
 }
 
@@ -244,7 +244,21 @@ transform: rotate(-45deg) translate(-5px,6px);
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
-.wall .t1{
-    position: relative;
-    height: 100%;
+.h2 {
+    color: #36936D;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto ;
 }
