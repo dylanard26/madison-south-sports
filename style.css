@@ -301,3 +301,18 @@ transform: rotate(-45deg) translate(-5px,6px);
     background-color: #555;
   }
 
+  .carousel-inner .image1 {
+      width: 40%   ;
+  }
+
+  
+  .button100 {
+    background-color: rgb(59, 50, 50);
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    cursor: pointer;
