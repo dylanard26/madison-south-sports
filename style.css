@@ -282,17 +282,7 @@ transform: rotate(-45deg) translate(-5px,6px);
   }
 
   
-  .button100 {
-    background-color: rgb(59, 50, 50);
-    border: none;
-    color: white;
-    padding: 8px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: medium;
-    cursor: pointer;
-  }
+ 
 
     .btn-one {
         color: #FFF;
@@ -505,7 +495,7 @@ section {
     color: #45e19f;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 200px){
     .card-wrapper {
         flex-direction: row;
         flex-wrap: wrap;
