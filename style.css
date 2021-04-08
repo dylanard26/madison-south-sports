@@ -13,7 +13,7 @@ body {
 }
 
 .TITLE {
-    font-size: 200%;
+    font-size: 250%;
     text-align: center;
 }
 
@@ -39,7 +39,7 @@ p {
 }
 
 .BT {
-    font-size: 120%;
+    font-size: 190%;
 }
 
 .funf {
@@ -80,11 +80,12 @@ p {
 .funfacts {
     position: absolute;
     z-index: 2; 
-    width: 25%;
-    left: 71%;
-    top: 47%;
-    height: 7em;
+    width: 20;
+    left: 63%;
+    top: 50%;
+    height: 30%;
     opacity: 0.9;
+    font-size: large;
 }
 
 .BoB {
@@ -105,23 +106,24 @@ p {
 .t1 {
     position: absolute;
     z-index: 2; 
-    width:60%;
-    left: 10%;
+    width:92.5%;
+    left: 4%;
     top: 170%;
-    height: 700%;
+    height: 1000%;
     opacity: 0.9;
     background-color: rgb(255, 255, 255);
     box-shadow: 10px 40px 40px 4px;
 }
 
 .p2 {
-    font-size:medium;
+    
     color: black;
-    font-size: 50%;
+    font-size: 100%;
 }
 
 .npl {
-    font-size: 110%;
+    font-size: 200%;
+    color: black;
 }
 
 .resp-container {
@@ -144,7 +146,9 @@ nav {
     min-height: 8vh;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(151, 2, 2);
-    
+    z-index: 9999;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -162,6 +166,16 @@ nav {
 
 .nav-links li {
     list-style: none;
+}
+
+.nav-links li:hover {
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgb(53, 38, 38);
+}
+
+.nav-links li:active {
+    transform: translateY(0);
+    box-shadow: none;
 }
 
 .nav-links a{
@@ -244,9 +258,8 @@ transform: rotate(-45deg) translate(-5px,6px);
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
-========================
+=========================
 
-========================
 * {
     margin: 0;
     padding: 0;
@@ -264,11 +277,10 @@ body {
 a{
     text-decoration: none;
     color: #fff;
-}
 
+}
 section {
     padding: 10rem 0;
-  
 }
 
 
@@ -281,14 +293,15 @@ section {
 }
 
 .card {
-    width: 32rem;
+    width: 34rem;
     background-color: #ebeef8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 2 rem 0;
+    margin: 3rem 0;
     box-shadow: .5rem .5rem .3rem rgba(0,0,0,.2);
+
 }
 
 .card .card-img {
@@ -321,7 +334,7 @@ section {
 }
 
 .about {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 1.5rem 0;
     font-style: italic;
     text-align: center;
@@ -387,7 +400,7 @@ section {
     color: #45e19f;
 }
 
-@media screen and (min-width: 10px){
+@media screen and (min-width: 700px){
     .card-wrapper {
         flex-direction: row;
         flex-wrap: wrap;
@@ -398,7 +411,7 @@ section {
 
     .card{
         margin: 2rem;
-        transition:  .5s;
+        transition: transform .5s;
     }
 
     @keyframes fadeIn {
@@ -421,8 +434,43 @@ section {
         .card:nth-child(4){
             animation:fadeIn .5s 2s backwards;
         }
+        .card:nth-child(5){
+            animation:fadeIn .5s 2.5s backwards;
+        }
+        .card:nth-child(6){
+            animation:fadeIn .5s 3s backwards;
+        }
+        .card:nth-child(7){
+            animation:fadeIn .5s 3.5s backwards;
+        }
+        .card:nth-child(8){
+            animation:fadeIn .5s 4s backwards;
+        }
+        .card:nth-child(9){
+            animation:fadeIn .5s 4.5s backwards;
+        }
+        .card:nth-child(10){
+            animation:fadeIn .5s 5s backwards;
+        }
+        .card:nth-child(11){
+            animation:fadeIn .5s 5.5s backwards;
+        }
+        .card:nth-child(12){
+            animation:fadeIn .5s 6s backwards;
+        }
+        .card:nth-child(13){
+            animation:fadeIn .5s 6.5s backwards;
+        }
+        .card:nth-child(14){
+            animation:fadeIn .5s 7s backwards;
+        }
+
     
         .card:hover {
             transform: scale(1.05);
         }
+        
+
 }
+
+========================
