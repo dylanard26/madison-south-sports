@@ -529,6 +529,33 @@ section {
         .card:nth-child(4){
             animation:fadeIn .5s 2s backwards;
         }
+        .card:nth-child(5){
+            animation:fadeIn .5s 2.5s backwards;
+        }
+        .card:nth-child(6){
+            animation:fadeIn .5s 3s backwards;
+        }
+        .card:nth-child(7){
+            animation:fadeIn .5s 3.5s backwards;
+        }
+        .card:nth-child(8){
+            animation:fadeIn .5s 4s backwards;
+        }
+        .card:nth-child(9){
+            animation:fadeIn .5s 4.5s backwards;
+        }
+        .card:nth-child(10){
+            animation:fadeIn .5s 5s backwards;
+        }
+        .card:nth-child(11){
+            animation:fadeIn .5s 5.5s backwards;
+        }
+        .card:nth-child(12){
+            animation:fadeIn .5s 6s backwards;
+        }
+        .card:nth-child(13){
+            animation:fadeIn .5s 6.5s backwards;
+        }
     
         .card:hover {
             transform: scale(1.05);
