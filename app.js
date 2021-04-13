@@ -24,3 +24,6 @@ const navSlide = () => {
     }
     
     navSlide();
+
+    window.onscroll = function() {myFunction()};
+
